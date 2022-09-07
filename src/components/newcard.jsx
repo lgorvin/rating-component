@@ -96,7 +96,7 @@ function NewCard(props) {
           </svg>
         </div>
         <div className="flex justify-center items-center pt-2">
-          <button className="bg-slate-700 text-sm leading-7 orange rounded-xl px-4">
+          <button className="bg-slate-700 text-sm leading-7 orange rounded-xl px-4 cursor-default">
             You selected{" "}
             {props.btnColor === true
               ? 1
