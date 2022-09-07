@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Card from "./card";
+import React from "react";
 
 function NewCard(props) {
   return (
@@ -99,15 +98,15 @@ function NewCard(props) {
         <div className="flex justify-center items-center pt-2">
           <button className="bg-slate-700 text-sm leading-7 orange rounded-xl px-4">
             You selected{" "}
-            {props.btnColor == true
+            {props.btnColor === true
               ? 1
-              : 0 || props.btnColor2 == true
+              : 0 || props.btnColor2 === true
               ? 2
-              : 0 || props.btnColor3 == true
+              : 0 || props.btnColor3 === true
               ? 3
-              : 0 || props.btnColor4 == true
+              : 0 || props.btnColor4 === true
               ? 4
-              : 0 || props.btnColor5 == true
+              : 0 || props.btnColor5 === true
               ? 5
               : 0}{" "}
             out of 5

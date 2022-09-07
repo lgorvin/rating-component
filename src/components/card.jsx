@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import NewCard from "./newcard";
 
-function changeColor() {}
-
 function Card() {
   const [btnColor, setBtnColor] = useState(false);
   const handleClick = () => {
