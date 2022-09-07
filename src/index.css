@@ -1,13 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.circle {
+  border-radius: 50%;
+}
+
+.orange {
+  color: hsl(25, 97%, 53%);
+}
+
+.orangeBg {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.lightGray {
+  color: hsl(217, 12%, 63%);
+}
+
+.lightGrayBg {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.mediumGray {
+  color: hsl(216, 12%, 54%);
+}
+
+.mediumGrayBg {
+  background-color: hsl(216, 12%, 54%);
+}
+
+.darkBlue {
+  color: hsl(213, 19%, 18%);
+}
+
+.darkBlueBg {
+  background-color: hsl(213, 19%, 18%);
+}
+
+.vDarkBlue {
+  color: hsl(216, 12%, 8%);
+}
+
+.vDarkBlueBg {
+  background-color: hsl(216, 12%, 8%);
 }
